@@ -1,0 +1,17 @@
+.fighterCard{
+  background-color: grey;
+  border: 3px solid red; 
+}
+
+/* body {
+  background-image:url(https://i.ytimg.com/vi/N9_1OyI9Sho/maxresdefault.jpg);
+} */
+
+.img-circle{
+  width: 70%;
+}
+
+.badges{
+  width: 10%;
+  height: auto;
+}
