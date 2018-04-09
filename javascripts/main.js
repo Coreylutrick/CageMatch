@@ -7,7 +7,7 @@ function printToDom(stringToPrint, divId)
 const buildDomString = (fightArr) =>
 {
   let domString = "";
-    domString += `<div class="col-md-5 col-md-offset-1 fighterCard">`;
+    domString += `<div class="col-md-6 fighterCard">`;
     domString +=  `<h3>${fightArr.name}</h3>`;
     domString +=  `<img class="img-circle" src="${fightArr.gravatar_url}">`;
     domString +=    `<div class="row">`;
@@ -31,13 +31,13 @@ const winnerDeclaration = (pointArr) =>
   if(score[0] > score[1])
   {
     domString += `<div class="col-md-6 col-md-offset-3 winner">`;
-    domString +=  `<h3>The winner is Player 1</h3>`;
+    domString +=  `<h3>The winner is Player 1!</h3>`;
     domString += `</div>`;
   }
   else if(score[0] < score[1])
   {
     domString += `<div class="col-md-6 col-md-offset-3 winner">`;
-    domString +=  `<h3>The winner is Player 2</h3>`;
+    domString +=  `<h3>The winner is Player 2!</h3>`;
     domString += `</div>`; 
   }
   else if(score[0] === score[1])
