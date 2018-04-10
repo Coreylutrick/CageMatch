@@ -1,17 +1,48 @@
 .fighterCard{
-  background-color: grey;
+  /* background-color: rgb(128, 128, 128, 0.5); */
   border: 3px solid red; 
+  border-radius: 4px;
+  margin-top: 1.5em;
 }
 
-/* body {
-  background-image:url(https://i.ytimg.com/vi/N9_1OyI9Sho/maxresdefault.jpg);
-} */
+body {
+  background-image:url(https://i.ytimg.com/vi/vE9qkExo8vc/hqdefault.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 
 .img-circle{
   width: 70%;
 }
 
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
 .badges{
-  width: 10%;
+  width: 15%;
   height: auto;
+  margin: .5%;
+}
+
+.badges:hover{
+  transition: transform 1s;
+  transform: rotate(360deg) scale(1.6);
+}
+
+.winner{
+  border: 3px solid red;
+  background-color: grey;
+  border-radius: 4px;
+  margin-top: 1.5em;
 }
