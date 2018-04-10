@@ -11,7 +11,7 @@ const buildDomString = (fightArr) =>
     domString +=  `<h3>${fightArr.name}</h3>`;
     domString +=  `<img class="img-circle col-md-6 col-md-offset-2" src="${fightArr.gravatar_url}">`;
     domString +=    `<div class="row">`;
-    domString +=      `<div class="col-md-8 badgeHolder">`;
+    domString +=      `<div class="col-md-9 badgeHolder">`;
     fightArr.badges.forEach(badge => 
       {
         domString +=  `<img class="badges" src="${badge.icon_url}">`;
