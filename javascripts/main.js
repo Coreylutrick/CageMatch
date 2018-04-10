@@ -7,7 +7,7 @@ function printToDom(stringToPrint, divId)
 const buildDomString = (fightArr) =>
 {
   let domString = "";
-    domString += `<div class="col-md-5 col-md-offset-1 fighterCard">`;
+    domString += `<div class="col-md-5 fighterCard">`;
     domString +=  `<h3>${fightArr.name}</h3>`;
     domString +=  `<img class="img-circle" src="${fightArr.gravatar_url}">`;
     domString +=    `<div class="row">`;
