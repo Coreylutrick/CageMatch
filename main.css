@@ -1,8 +1,8 @@
 .fighterCard{
-  /* background-color: rgb(128, 128, 128, 0.5); */
   border: 3px solid red; 
   border-radius: 4px;
   margin-top: 1.5em;
+  background-color: grey;
 }
 
 body {
@@ -14,11 +14,13 @@ body {
 }
 
 .img-circle{
-  width: 70%;
+  width: 20%;
+  float: left;
+  margin: auto;
 }
 
 h1 {
-  color: white;
+  color: red;
 }
 
 h3 {
@@ -30,8 +32,8 @@ h2 {
 }
 
 .badges{
-  width: 15%;
-  height: auto;
+  width: 4%;
+  height: 4%;
   margin: .5%;
 }
 
@@ -46,3 +48,11 @@ h2 {
   border-radius: 4px;
   margin-top: 1.5em;
 }
+
+.badgeHolder{
+  margin: auto;
+}
+
+/* .playerName{
+  text-align: left;
+} */
