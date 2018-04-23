@@ -6,7 +6,7 @@ This is a project that compares the 2 treehouse scores of the users that you ent
 ## Screenshot:
 ![Webpage](https://github.com/Coreylutrick/CageMatch/blob/master/screenshots/screenshot.png)
 ![Webpage](https://github.com/Coreylutrick/CageMatch/blob/master/screenshots/screenshot2.png)
-![Webpage](https://github.com/Coreylutrick/CageMatch/blob/master/screenshots/screenshot3.png
+![Webpage](https://github.com/Coreylutrick/CageMatch/blob/master/screenshots/screenshot3.png)
 
 ## How To Run:
 1. Clone repository, and cd into project
